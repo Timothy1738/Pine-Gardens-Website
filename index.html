@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!--SWIPPER JS CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <title>Home</title>
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <img src="./img/logo.png" alt="">
+            </div>
+            <div class="nav-links">
+                <a class="active" href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="events.html">Events</a>
+                <a href="testimonial.html">Testimonials</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="socials">
+                <span class="iconify" data-icon="ri:facebook-fill"></span>
+                <span class="iconify" data-icon="simple-icons:x"></span>
+                <span class="iconify" data-icon="uil:instagram"></span>
+                <span class="iconify" data-icon="ri:linkedin-fill"></span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="home">
+        <div class="overlay"></div>
+        <div class="bg-slider mySwiper">
+            <div class="images swiper-wrapper">
+                <img class="swiper-slide" src="./img/hero-img.jpeg" alt="">
+                <img class="swiper-slide" src="./img/outdoors-1.jpeg" alt="">
+                <img class="swiper-slide" src="./img/outdoors-2.jpeg" alt="">
+                <img class="swiper-slide" src="./img/pexels-melissa-698907-events-img.jpg" alt="">
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="container">
+            <div class="hero-text">
+                <h1>WELCOME TO <span>PINE GARDENS</span></h1>
+                <div class="wrapper">
+                    <p>Home of</p>
+                    <div class="words">
+                        <div class="words-rotate">
+                            <span>Relaxation</span>
+                            <span>Comfort</span>
+                            <span>Tranquility</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cta-btn">
+                <a href="about.html">
+                    <button>LEARN MORE</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!--FOOTER-->
+    <footer>
+        <div class="container">
+            <div class="header-section">
+                <div class="logo">
+                    <img src="./img/logo.png" alt="">
+                </div>
+                <h1>PINE GARDENS</h1>
+            </div>
+
+            <div class="footer-cols">
+                <div class="col-1">
+                    <h2>GET IN TOUCH</h2>
+                    <p><span class="iconify" data-icon="gis:location-poi"></span> Pike street, Lira City</p>
+                    <p><span class="iconify" data-icon="material-symbols:stacked-email-outline"></span>
+                        pinegardens@gmail.com</p>
+                    <p><span class="iconify" data-icon="mdi:phone"></span> +256 776 6257 635 | +256 889 0974 752</p>
+                </div>
+
+                <div class="col-1">
+                    <h2>USEFUL LINKS</h2>
+                    <div class="order">
+                        <div class="left">
+                            <a href="index.html">Home</a>
+                            <a href="about.html">About</a>
+                            <a href="services.html">Services</a>
+                            <a href="events.html">Events</a>
+                        </div>
+                        <div class="right">
+                            <a href="testimonial.html">Testimonials</a>
+                            <a href="contact.html">Contact</a>
+                            <a href="#">T & C</a>
+                            <a href="#">FAQS</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1">
+                    <h2>FOLLOW US ON SCOCIAL MEDIA</h2>
+                    <div class="socials">
+                        <iconify-icon class="iconify" icon="ri:facebook-fill"></iconify-icon>
+                        <iconify-icon class="iconify" icon="simple-icons:x"></iconify-icon>
+                        <iconify-icon class="iconify" icon="mdi:instagram"></iconify-icon>
+                        <iconify-icon class="iconify" icon="ri:linkedin-fill"></iconify-icon>
+                    </div>
+                </div>
+
+                <div class="col-1">
+                    <h2>SUBSCRIBE TO OUR NEWS LETTER</h2>
+                    <form action="">
+                        <input type="text" placeholder="Your Email">
+                        <input type="submit" value="Subscibe">
+                    </form>
+                </div>
+            </div>
+
+            <hr class="line">
+            <div class="copyright">
+                <p>Developed and Designed by <a href="https://anganyatimothy.netlify.app/#home">Tim</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!--ICONIFY JS CDN-->
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+    <!--SWIPER JS CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!--SWIPER JS SCRIPT-->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            speed: 1000,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,250 @@
+--color-white: #ffffff;
+--color-primary: #25CA8D;
+--color-hero-text: #1CE29A;
+--color-card-backgrnd: #A9D3C4;
+--lighter-black: #26342F;
+--color-footer: #0F1E18;
+--light-gray: #D9D9D9;
+--blue: #2081DB;
+--color-background: #F6FAF8;
+
+10% {
+        transform: translateY(-112%);
+    }
+
+    20% {
+        transform: translateY(-100%);
+    }
+
+    35% {
+        transform: translateY(-212%);
+    }
+
+    50% {
+        transform: translateY(-200%);
+    }
+
+    60% {
+        transform: translateY(-312%);
+    }
+
+    75% {
+        transform: translateY(-300%);
+    }
+
+    85% {
+        transform: translateY(-412%);
+    }
+
+    100% {
+        transform: translateY(-400%);
+    }
+
+
+
+<div class="meet-the-team teamSwiper">
+                    <h1>Meet The Team</h1>
+                    <div class="team-cards swiper-wrapper">
+                        <div class="team-card swiper-slide">
+                            <div class="top">
+                                <img src="./img/team/team-1.jpg" alt="">
+                                <div class="socials">
+                                    <span class="iconify" data-icon="ri:facebook-fill"></span>
+                                    <span class="iconify" data-icon="simple-icons:x"></span>
+                                    <span class="iconify" data-icon="uil:instagram"></span>
+                                    <span class="iconify" data-icon="ri:linkedin-fill"></span>
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                <h3>Joe Picket</h3>
+                                <span>Human Resource</span>
+                            </div>
+                        </div>
+                        <!--END OF CARD-->
+
+                        <div class="team-card swiper-slide">
+                            <div class="top">
+                                <img src="./img/team/team-1.jpg" alt="">
+                                <div class="socials">
+                                    <span class="iconify" data-icon="ri:facebook-fill"></span>
+                                    <span class="iconify" data-icon="simple-icons:x"></span>
+                                    <span class="iconify" data-icon="uil:instagram"></span>
+                                    <span class="iconify" data-icon="ri:linkedin-fill"></span>
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                <h3>Joe Picket</h3>
+                                <span>Human Resource</span>
+                            </div>
+                        </div>
+                        <!--END OF CARD-->
+
+                        <div class="team-card swiper-slide">
+                            <div class="top">
+                                <img src="./img/team/team-1.jpg" alt="">
+                                <div class="socials">
+                                    <span class="iconify" data-icon="ri:facebook-fill"></span>
+                                    <span class="iconify" data-icon="simple-icons:x"></span>
+                                    <span class="iconify" data-icon="uil:instagram"></span>
+                                    <span class="iconify" data-icon="ri:linkedin-fill"></span>
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                <h3>Joe Picket</h3>
+                                <span>Human Resource</span>
+                            </div>
+                        </div>
+                        <!--END OF CARD-->
+
+                        <div class="team-card swiper-slide">
+                            <div class="top">
+                                <img src="./img/team/team-1.jpg" alt="">
+                                <div class="socials">
+                                    <span class="iconify" data-icon="ri:facebook-fill"></span>
+                                    <span class="iconify" data-icon="simple-icons:x"></span>
+                                    <span class="iconify" data-icon="uil:instagram"></span>
+                                    <span class="iconify" data-icon="ri:linkedin-fill"></span>
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                <h3>Joe Picket</h3>
+                                <span>Human Resource</span>
+                            </div>
+                        </div>
+                        <!--END OF CARD-->
+
+                        <div class="team-card swiper-slide">
+                            <div class="top">
+                                <img src="./img/team/team-1.jpg" alt="">
+                                <div class="socials">
+                                    <span class="iconify" data-icon="ri:facebook-fill"></span>
+                                    <span class="iconify" data-icon="simple-icons:x"></span>
+                                    <span class="iconify" data-icon="uil:instagram"></span>
+                                    <span class="iconify" data-icon="ri:linkedin-fill"></span>
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                <h3>Joe Picket</h3>
+                                <span>Human Resource</span>
+                            </div>
+                        </div>
+                        <!--END OF CARD-->
+
+                        <div class="team-card swiper-slide">
+                            <div class="top">
+                                <img src="./img/team/team-1.jpg" alt="">
+                                <div class="socials">
+                                    <span class="iconify" data-icon="ri:facebook-fill"></span>
+                                    <span class="iconify" data-icon="simple-icons:x"></span>
+                                    <span class="iconify" data-icon="uil:instagram"></span>
+                                    <span class="iconify" data-icon="ri:linkedin-fill"></span>
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                <h3>Joe Picket</h3>
+                                <span>Human Resource</span>
+                            </div>
+                        </div>
+                        <!--END OF CARD-->
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+
+.about .bottom-sliders {
+    background-color: var(--color-card-backgrnd);
+    margin-top: 8rem;
+    display: grid;
+    place-items: center;
+    width: 100%;
+}
+
+.about .bottom-sliders .meet-the-team {
+    width: 100%;
+    padding: 5rem 0 10rem;
+}
+
+.about .bottom-sliders .meet-the-team h1 {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 4rem;
+    color: var(--lighter-black);
+}
+
+.about .bottom-sliders .meet-the-team .team-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.about .bottom-sliders .meet-the-team .team-cards .team-card {
+    background-color: var(--color-background);
+    width: 28vw;
+    height: 70vh;
+    position: relative;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.about .bottom-sliders .meet-the-team .team-cards .team-card .top {
+    position: relative;
+    height: 80%;
+    width: 100%;
+}
+
+.about .bottom-sliders .meet-the-team .team-cards .team-card .top img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.about .bottom-sliders .meet-the-team .team-cards .team-card .top .socials {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    right: 0;
+    top: 2rem;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.about .bottom-sliders .meet-the-team .team-cards .team-card:hover .socials {
+    opacity: 1;
+}
+
+.about .bottom-sliders .meet-the-team .team-cards .team-card .top .socials .iconify {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    transition: 0.5s;
+}
+
+.about .bottom-sliders .meet-the-team .team-cards .team-card .top .socials .iconify:hover {
+    color: var(--color-background);
+    cursor: pointer;
+}
+
+.about .bottom-sliders .meet-the-team .team-cards .team-card .bottom {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+    width: 100%;
+}
+
+.about .bottom-sliders .meet-the-team .team-cards .team-card .bottom h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    color: var(--lighter-black);
+}
+
+.about .bottom-sliders .meet-the-team .team-cards .team-card .bottom span {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-footer);
+    margin-top: 0.2rem;
+}
