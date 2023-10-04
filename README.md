@@ -1,1 +1,1 @@
-
+A fully responsive website for a gardens-kinda-restaraunt-hotel hang-out place showing the diiferent services offered and about them. Pine Gardens does not actually exist, it's just a concept and I hope ya'll out there find it impressive and adopt it as your website. So, if your business suites this website, feel free to reach out (anganyatimothy@gmail.com). Lets make this project a reality

@@ -8,6 +8,9 @@
     <!--SWIPPER JS CSS-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
+    <!--google icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
     <link rel="stylesheet" href="./css/styles.css">
     <title>About Us</title>
 </head>
@@ -50,7 +53,7 @@
         <div class="container">
             <div class="about-context">
                 <div class="left">
-                    <img src="./img/outdoors-3.jpeg" alt="outdoor garden">
+                    <img src="./img/home-slider/gardens-2.jpg" alt="outdoor garden">
                 </div>
                 <div class="right">
                     <h2>DISCOVER OUR STORY</h2>
@@ -73,50 +76,58 @@
                 </div>
             </div>
 
-            <div class="business-cards">
-                <div class="card-1">
-                    <h2>Find Us</h2>
-                    <div class="order">
-                        <div class="left">
-                            <span class="iconify" data-icon="gis:location-poi"></span>
-                        </div>
-                        <div class="right">
-                            <p>Pike street, Lira City</p>
-                        </div>
+            <div class="visionary">
+                <div class="card-visionary">
+                    <div class="card-top">
+                        <span class="iconify" data-icon="pajamas:rocket-launch"></span>
+                    </div>
+                    <div class="card-bottom">
+                        <h3>Mission</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sit voluptatum aut ex
+                            sapiente earum unde id quo praesentium animi aspernatur explicabo inventore, nihil quam
+                            beatae qui iusto facere nesciunt.
+                        </p>
                     </div>
                 </div>
+                <!--end of card-->
 
-                <div class="card-1">
-                    <h2>Call Us</h2>
-                    <div class="order">
-                        <div class="left">
-                            <span class="iconify" data-icon="mdi:phone"></span>
-                        </div>
-
-                        <div class="right">
-                            <p>07766257635 | 07890974752</p>
-                        </div>
+                <div class="card-visionary">
+                    <div class="card-top">
+                        <span class="iconify" data-icon="octicon:light-bulb-24"></span>
+                    </div>
+                    <div class="card-bottom">
+                        <h3>Vision</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sit voluptatum aut ex
+                            sapiente earum unde id quo praesentium animi aspernatur explicabo inventore, nihil quam
+                            beatae qui iusto facere nesciunt.
+                        </p>
                     </div>
                 </div>
+                <!--end of card-->
 
-                <div class="card-1">
-                    <h2>Email Us</h2>
-                    <div class="order">
-                        <div class="left">
-                            <span class="iconify" data-icon="material-symbols:stacked-email-outline"></span>
-                        </div>
-
-                        <div class="right">
-                            <p>pinegardens@gmail.com</p>
-                        </div>
+                <div class="card-visionary">
+                    <div class="card-top">
+                        <span class="iconify" data-icon="fluent-mdl2:bullseye"></span>
+                    </div>
+                    <div class="card-bottom">
+                        <h3>Goals</h3>
+                        <ul>
+                            <li><span class="material-symbols-outlined">done</span> Lorem ipsum dolor sit amet.</li>
+                            <li><span class="material-symbols-outlined">done</span> Lorem ipsum dolor sit amet.</li>
+                            <li><span class="material-symbols-outlined">done</span> Lorem ipsum dolor sit amet.</li>
+                            <li><span class="material-symbols-outlined">done</span> Lorem ipsum dolor sit amet.</li>
+                        </ul>
                     </div>
                 </div>
+                <!--end of card-->
             </div>
         </div>
 
         <!--BOTTOM SIDERS-->
         <div class="bottom-sliders">
-            <div class="container">
+            <div class="container swiper">
                 <div class="meet-the-team teamSwiper">
                     <h1>Meet The Team</h1>
                     <div class="team-cards swiper-wrapper">
@@ -368,6 +379,7 @@
                 el: ".swiper-pagination",
                 clickable: true,
                 type: 'bullets',
+                dynamicBullets: true, 
             },
             speed: 1000,
             autoplay: {

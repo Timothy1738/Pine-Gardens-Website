@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    
 
+    <!--main css-->
     <link rel="stylesheet" href="./css/styles.css">
     <title>Services</title>
 </head>
@@ -95,7 +95,7 @@
         </div>
 
         <section id="banner-sec">
-            <div class="banner-sec">
+            <div class="container">
                 <div class="banner-header">
                     <div class="highlight">
                         <div class="span-1">
@@ -111,23 +111,163 @@
                     </p>
                 </div>
 
-                <div class="restaurant-imgs restaurantSwiper">
-                    <div class="restaurant-img swiper-wrapper">
-                        <div class="restaurant-cards swiper-slide"><img src="./img/food/pexels-3.jpg" alt="food"></div>
-                        <div class="restaurant-cards swiper-slide"><img src="./img/food/pexels-4.jpg" alt="food"></div>
-                        <div class="restaurant-cards swiper-slide"><img src="./img/food/pexels-5.jpg" alt="food"></div>
-                        <div class="restaurant-cards swiper-slide"><img src="./img/food/pexels-6.jpg" alt="food"></div>
-                        <div class="restaurant-cards swiper-slide"><img src="./img/food/pexels-7.jpg" alt="food"></div>
-                        <div class="restaurant-cards swiper-slide"><img src="./img/food/pexels-8.jpg" alt="food"></div>
-                        <div class="restaurant-cards swiper-slide"><img src="./img/food/pexels-4.jpg" alt="food"></div>
-                        <div class="restaurant-cards swiper-slide"><img
-                                src="./img/food/pexels-burak-the-weekender-735869.jpg" alt="food"></div>
-                        <div class="restaurant-cards swiper-slide"><img src="./img/food/pexels-life-of-pix-67468.jpg"
-                                alt="food"></div>
-                        <div class="restaurant-cards swiper-slide"><img src="./img/food/pexels-robin-stickel-70497.jpg"
-                                alt="food"></div>
+                <div class="filterable-gallery">
+                    <div class="filter-btns">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="menu">Menu</button>
+                        <button class="filter-btn" data-filter="food">Food</button>
+                        <button class="filter-btn" data-filter="b&r">Bar & Restaurant</button>
+                        <button class="filter-btn" data-filter="waiter">Our Waiters</button>   
                     </div>
-                    <div class="swiper-pagination"></div>
+
+                    <div class="gallery">
+                        <div class="image b&r">
+                            <a href="./img/filterable-gallery/bar & restaurant-1.jpg" data-lightbox="models" data-title="caption1">
+                                <img src="./img/filterable-gallery/bar & restaurant-1.jpg" alt="">
+                            </a>
+                        </div>
+                        <!--end of image-->
+
+                        <div class="image b&r">
+                            <a href="./img/filterable-gallery/bar & restaurant-2.jpg" data-lightbox="models" data-title="caption1">
+                                <img src="./img/filterable-gallery/bar & restaurant-2.jpg" alt="">
+                            </a>
+                        </div>
+                        <!--end of image-->
+
+                        <div class="image b&r">
+                            <a href="./img/filterable-gallery/bar & restaurant-3.jpg" data-lightbox="models" data-title="caption1">
+                                <img src="./img/filterable-gallery/bar & restaurant-3.jpg" alt="">
+                            </a>
+                        </div>
+                        <!--end of image-->
+
+                        <div class="image b&r">
+                            <a href="./img/filterable-gallery/bar & restaurant-7.jpg" data-lightbox="models" data-title="caption1">
+                                <img src="./img/filterable-gallery/bar & restaurant-7.jpg" alt="">
+                            </a>
+                        </div>
+                        <!--end of image-->
+
+                        <div class="image b&r">
+                            <a href="./img/filterable-gallery/bar & restaurant-5.jpg" data-lightbox="models" data-title="caption1">
+                                <img src="./img/filterable-gallery/bar & restaurant-5.jpg" alt="">
+                            </a>
+                        </div>
+                        <!--end of image-->
+
+                        <div class="image b&r">
+                            <a href="./img/filterable-gallery/bar & restaurant-6.jpg" data-lightbox="models" data-title="caption1">
+                                <img src="./img/filterable-gallery/bar & restaurant-6.jpg" alt="">
+                            </a>
+                        </div>
+                        <!--end of image-->
+
+                        <div class="image menu">
+                            <a href="./img/filterable-gallery/menu.jpg" data-lightbox="models" data-title="caption1">
+                                <img src="./img/filterable-gallery/menu.jpg" alt="">
+                            </a>
+                        </div>
+                        <!--end of image-->
+
+                        <div class="image b&r">
+                            <a href="./img/filterable-gallery/bar & restaurant-4.jpg" data-lightbox="models" data-title="caption1">
+                                <img src="./img/filterable-gallery/bar & restaurant-4.jpg" alt="">
+                            </a>
+                        </div>
+                        <!--end of image-->
+
+                        <div class="image food">
+                            <a href="./img/filterable-gallery/food-1.jpg" data-lightbox="models" data-title="caption1">
+                                <img src="./img/filterable-gallery/food-1.jpg" alt="">
+                            </a>
+                        </div>
+                        <!--end of image-->
+
+                        <div class="image food">
+                            <a href="./img/filterable-gallery/food-2.jpg" data-lightbox="models" data-title="caption1">
+                                <img src="./img/filterable-gallery/food-2.jpg" alt="">
+                            </a>
+                        </div>
+                        <!--end of image-->
+
+                        <div class="image food">
+                            <a href="./img/filterable-gallery/food-3.jpg" data-lightbox="models" data-title="caption1">
+                                <img src="./img/filterable-gallery/food-3.jpg" alt="">
+                            </a>
+                        </div>
+                        <!--end of image-->
+
+                        <div class="image food">
+                            <a href="./img/filterable-gallery/food-4.jpg" data-lightbox="models" data-title="caption1">
+                                <img src="./img/filterable-gallery/food-4.jpg" alt="">
+                            </a>
+                        </div>
+                        <!--end of image-->
+
+                        <div class="image food">
+                            <a href="./img/filterable-gallery/food-5.jpg" data-lightbox="models" data-title="caption1">
+                                <img src="./img/filterable-gallery/food-5.jpg" alt="">
+                            </a>
+                        </div>
+                        <!--end of image-->
+
+                        <div class="image food">
+                            <a href="./img/filterable-gallery/food-6.jpg" data-lightbox="models" data-title="caption1">
+                                <img src="./img/filterable-gallery/food-6.jpg" alt="">
+                            </a>
+                        </div>
+                        <!--end of image-->
+
+                        <div class="image food">
+                            <a href="./img/filterable-gallery/food-7.jpg" data-lightbox="models" data-title="caption1">
+                                <img src="./img/filterable-gallery/food-7.jpg" alt="">
+                            </a>
+                        </div>
+                        <!--end of image-->
+
+                        <div class="image food">
+                            <a href="./img/filterable-gallery/food-8.jpg" data-lightbox="models" data-title="caption1">
+                                <img src="./img/filterable-gallery/food-8.jpg" alt="">
+                            </a>
+                        </div>
+                        <!--end of image-->
+
+                        <div class="image food">
+                            <a href="./img/filterable-gallery/food-9.jpg" data-lightbox="models" data-title="caption1">
+                                <img src="./img/filterable-gallery/food-9.jpg" alt="">
+                            </a>
+                        </div>
+                        <!--end of image-->
+
+                        <div class="image food">
+                            <a href="./img/filterable-gallery/food-10.jpg" data-lightbox="models" data-title="caption1">
+                                <img src="./img/filterable-gallery/food-10.jpg" alt="">
+                            </a>
+                        </div>
+                        <!--end of image-->
+
+                        <div class="image food">
+                            <a href="./img/filterable-gallery/food-11.jpg" data-lightbox="models" data-title="caption1">
+                                <img src="./img/filterable-gallery/food-11.jpg" alt="">
+                            </a>
+                        </div>
+                        <!--end of image-->
+
+                        <div class="image waiter">
+                            <a href="./img/filterable-gallery/waiter-1.jpg" data-lightbox="models" data-title="caption1">
+                                <img src="./img/filterable-gallery/waiter-1.jpg" alt="">
+                            </a>
+                        </div>
+                        <!--end of image-->
+
+                        <div class="image waiter">
+                            <a href="./img/filterable-gallery/waiter-2.jpg" data-lightbox="models" data-title="caption1">
+                                <img src="./img/filterable-gallery/waiter-2.jpg" alt="">
+                            </a>
+                        </div>
+                        <!--end of image-->
+                    </div>
                 </div>
             </div>
         </section>
@@ -207,31 +347,8 @@
     <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-
-    <script>
-        var swiper = new Swiper(".restaurantSwiper", {
-            effect: "cube",
-            grabCursor: true,
-            cubeEffect: {
-                shadow: true,
-                slideShadows: true,
-                shadowOffset: 20,
-                shadowScale: 0.94,
-            },
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-                type: 'bullets',
-            },
-            speed: 900,
-            autoplay: {
-                delay: 2500,
-                disableOnInteraction: false,
-            },
-        });
-    </script>
+    <!--main js-->
+    <script src="./js/main.js" defer></script>
 </body>
 
 </html>
